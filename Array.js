@@ -20,6 +20,18 @@ var singleNumber = function(nums) {
     return num
 };
 
+//去除数组重复
+function unique(a) {
+    var res = a.filter(function(item, index, array) {
+        return array.indexOf(item) === index;
+    });
+    return res;
+}
+
+function unique(a) {
+    return Array.from(new Set(a));
+}
+
 //给定两个数组，编写一个函数来计算它们的交集。
 //nums1 = [1,2,2,1], nums2 = [2,2] =====> [2,2]
 //nums1 = [4,9,5], nums2 = [9,4,9,8,4] ====> [4,9]
