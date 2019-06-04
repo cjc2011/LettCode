@@ -1,0 +1,27 @@
+{
+  "name": "lettcode",
+  "version": "1.0.0",
+  "description": "算法",
+  "main": "026-从排序数组中删除重复项目.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.8.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.8.0",
+    "regenerator-runtime": "^0.13.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjc2011/LettCode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjc2011/LettCode/issues"
+  },
+  "homepage": "https://github.com/cjc2011/LettCode#readme"
+}
